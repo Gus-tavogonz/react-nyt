@@ -6,7 +6,7 @@ import { Col, Row, Container } from "../../components/Grid";
 import { List, ListItem } from "../../components/List";
 import { Input, TextArea, FormBtn } from "../../components/Form";
 
-class Books extends Component {
+class Articles extends Component {
   // Setting our component's initial state
   state = {
     books: [],
@@ -157,4 +157,4 @@ class Books extends Component {
   }
 }
 
-export default Books;
+export default Articles;
